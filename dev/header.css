@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:lightgrey;
+}
+
+header {
+    background-color: #D0CFEC;
+}
+
+
+.headNav > ul {
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
+
+.headNav li {
+    list-style: none;
+}
+
+.headLogo {
+    width: 10vh;
+    height: 10vh;
+}
+  
+  /* more mobile styles here... */
+  /* then... */
+  /* EVERYTHING BELOW HERE desktop 688px and bigger */
+  
+  @media (min-width: 688px) {
+    body {
+      background: green;
+    }
+  
+
+  
+  /* etc. etc. */
+  
+}
