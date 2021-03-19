@@ -1,0 +1,70 @@
+/* Mobile 0px to 688px */ 
+/* couleur mauve clair #D0CFEC */
+/* couleur vert #6A8E7F */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.newsletterDiv{
+  background-color: #D0CFEC;
+  color: #6A8E7F;
+  padding-top: 10px;
+  height: 150px;
+  text-align: center;
+}
+.newsletterForm{
+  width: 30%;
+  font-style: italic;
+}
+.newsletterButton{
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px #6A8E7F;
+}
+
+.footerDiv{
+  background-color: #6A8E7F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.logoFooter{
+  width: 10vw; /*vw = dimension en fonction de l'écran et non du parent (Div)*/
+  height: 10vw;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/*Social Icons*/
+h2, h4{
+  font-weight: normal;
+}
+.socialIcons{
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+/*.facebookIcon, .instagramIcon, .twitterIcon{
+  width: 30px;
+  height: 30px;
+}*/
+
+.navFooter{
+  display: flex;
+  list-style-type: none;
+  width: 80%;
+  justify-content: space-around;
+  font-size: 0.7em;
+}
+
+  
+
+/* Desktop 688px and bigger */
+  
+@media (min-width: 688px) {
+    body {
+      /*style goes here*/
+    }
+}
