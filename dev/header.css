@@ -13,6 +13,7 @@ header {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* HEADER GRID CONTAINER */
 
 .headNav > ul {
     height: 15vh;
@@ -21,17 +22,67 @@ header {
     grid-template-rows: repeat(8, 1fr);
 }
 
-.headNav li {
-    list-style: none;
-    font-family: 'Lato', sans-serif;
-    color: #6A8E7F;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/* HEADER GRID ITEM LAYOUT */
+
+.headGridLogo {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
 }
 
-.headLogo {
-    width: 10vh;
-    height: 10vh;
+.headGridCult {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
 }
+
+.headGridGast {
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+}
+
+.headGridHist {
+  grid-row: 3 / 4;
+  grid-column: 5 / 6;
+}
+
+.headGridNight {
+  grid-row: 4 / 5;
+  grid-column: 6 / 7;
+}
+
+.headGridInsol {
+  grid-row: 5 / 6;
+  grid-column: 7 / 8;
+}
+
+.headGridPrat {
+  grid-row: 6 / 7;
+  grid-column: 8 / 9;
+}
+
+
+
+/* HEADER GRID ITEM CONTENT */
+
+.headLogo {
+    position: absolute;
+    width: 11vh;
+    height: 11vh;
+}
+
+.headNav li {
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  /* add a max font-size here */
+  font-size: 4vw;
+  color: #6A8E7F;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.headNav li span {
+  position: absolute;
+}
+
+
   
   /* more mobile styles here... */
   /* then... */
