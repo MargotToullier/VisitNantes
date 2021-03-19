@@ -9,61 +9,28 @@ body {
 }
 
 header {
+  height: 10vh;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #EEEEFE;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-/* HEADER GRID CONTAINER */
-
-.headNav > ul {
-    height: 15vh;
-    display: grid;
-    grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(8, 1fr);
-}
-
-/* HEADER GRID ITEM LAYOUT */
-
-.headGridLogo {
-  grid-row: 2 / 3;
-  grid-column: 1 / 2;
-}
-
-.headGridHist {
-  grid-row: 2 / 3;
-  grid-column: 4 / 5;
-}
-
-.headGridCult {
-  grid-row: 3 / 4;
-  grid-column: 5 / 6;
-}
-
-.headGridGast {
-  grid-row: 4 / 5;
-  grid-column: 6 / 7;
+.navContainer {
+  margin-left: 20px;
 }
 
 
-.headGridNight {
-  grid-row: 5 / 6;
-  grid-column: 5 /6;
-}
 
-.headGridInsol {
-  grid-row: 6 / 7;
-  grid-column: 4 / 5;
-}
 
-.headGridPrat {
-  grid-row: 8 / 9;
-  grid-column: 9 / 10;
-}
 
 
 
 /* HEADER GRID ITEM CONTENT */
-
+/* 
 .headLogo {
     position: absolute;
     width: 11vh;
@@ -72,16 +39,16 @@ header {
 
 .headNav li {
   list-style: none;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif; */
   /* add a max font-size here */
-  font-size: 4vw;
+  /* font-size: 4vw;
   color: #6A8E7F;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .headNav li span {
   position: absolute;
-}
+} */
 
 
 /* BURGER CSS */
@@ -154,11 +121,7 @@ header {
 }
 
 /* FROM HERE TO INTEGRATE */
-body {
-  background-color: floralwhite;
-  font-family: "lato", sans-serif;
-  font-size: 30px;
-}
+
 
 a {
   color: inherit;
