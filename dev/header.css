@@ -9,7 +9,8 @@ body {
 }
 
 header {
-    background-color: #D0CFEC;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #EEEEFE;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -17,11 +18,14 @@ header {
     height: 15vh;
     display: grid;
     grid-template-columns: repeat(10, 10%);
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: repeat(8, 1fr);
 }
 
 .headNav li {
     list-style: none;
+    font-family: 'Lato', sans-serif;
+    color: #6A8E7F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .headLogo {
