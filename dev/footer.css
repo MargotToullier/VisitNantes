@@ -7,6 +7,9 @@ body {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+/*Bloc newsletter*/
+
 .newsletterDiv{
   background-color: #D0CFEC;
   color: #6A8E7F;
@@ -15,13 +18,16 @@ body {
   text-align: center;
 }
 .newsletterForm{
-  width: 30%;
+  width: 70%;
   font-style: italic;
+  max-width: 350px;
 }
 .newsletterButton{
   border-radius: 5px;
   box-shadow: 2px 2px 0px #6A8E7F;
 }
+
+/*Bloc footer*/
 
 .footerDiv{
   background-color: #6A8E7F;
@@ -31,21 +37,23 @@ body {
   color: #ffffff;
 }
 
-.logoFooter{
-  width: 10vw; /*vw = dimension en fonction de l'écran et non du parent (Div)*/
-  height: 10vw;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-/*Social Icons*/
-h2, h4{
-  font-weight: normal;
-}
 .socialIcons{
   display: flex;
   justify-content: space-between;
-  width: 10%;
+  margin: auto;
+  width: 25%;
+  margin-bottom: 25px;
 }
+
+.logoFooter{
+  width: 18vw; /*vw = dimension en fonction de l'écran et non du parent (Div)*/
+  height: 18vw;
+}
+
+h2, h4{
+  font-weight: normal;
+}
+
 /*.facebookIcon, .instagramIcon, .twitterIcon{
   width: 30px;
   height: 30px;
@@ -54,17 +62,31 @@ h2, h4{
 .navFooter{
   display: flex;
   list-style-type: none;
-  width: 80%;
+  width: 85%;
   justify-content: space-around;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
   
-
 /* Desktop 688px and bigger */
   
 @media (min-width: 688px) {
     body {
       /*style goes here*/
+    }
+    .newsletterForm{
+      width: 30%;
+      max-width: 350px;
+      font-style: italic;
+    }
+    .logoFooter{
+      width: 18vw;
+      height: 18vw;
+      max-width: 150px;
+      max-height: 150px;
+    }
+    .socialIcons{
+      width: 25%;
+      max-width: 170px;
     }
 }
