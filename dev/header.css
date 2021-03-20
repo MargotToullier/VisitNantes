@@ -101,9 +101,7 @@ header {
 }
 
 /* FROM HERE TO INTEGRATE */
-
-
-a {
+header a {
   color: inherit;
 }
 
@@ -111,38 +109,107 @@ small {
   font-size: 14px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
+header li {
   list-style: none;
   font-size: 25px;
   padding: 5px 0;
 }
-li a {
+header a {
   text-decoration: none;
 }
-li a:hover {
+header a:hover {
   text-decoration: underline;
 }
 /* TO HERE TO INTEGRATE */
 /* END BURGER CSS */
 
-
-  
-  /* more mobile styles here... */
-  /* then... */
-  /* EVERYTHING BELOW HERE desktop 688px and bigger */
-  
-  @media (min-width: 688px) {
-    body {
-      background: green;
-    }
+/* Hide desktop nav on mobile view */
+.desktopNav {
+  display: none;
+}
   
 
+/* EVERYTHING BELOW HERE desktop 688px and bigger */
   
-  /* etc. etc. */
+@media (min-width: 688px) {
+
+  body {
+    background: green;
+  }
+
+  /* Hide mobile burger menu */
+  .burger {
+    display: none;
+  }
+
+  /* Show desktop nav items */
+  .desktopNav {
+    display: block;
+    padding: 0 30px;
+  }
+
+
+  
+  /* Desktop grid container layout definition */
+  header {
+    height: 16vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-rows: 0;
+  }  
+
+  /* Desktop grid item layout definition */
+  /* all central column for logo */
+  .headLogo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    justify-self: center;
+    align-self: center;
+    width: 15vh;
+    height: 15vh;
+  }
+
+  /* top left */
+  .hist {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: end;
+  }
+
+  /* center left */
+  .gast {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  /* bottom left */
+  .insol {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: end;
+  }
+
+  /* top right */
+  .cult {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  /* center right*/
+  .night {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    justify-self: end;
+  }
+
+  /* bottom right*/
+  .prat {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+  }
+  
+
+ 
   
 }
