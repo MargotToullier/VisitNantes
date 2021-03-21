@@ -1,124 +1,156 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family : "lato", sans serif;
 }
 
 /* VERSION MOBILE UP TO 688 PX */
-@media (min-width: 0px) {
 
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 99%;
-    }
-
-    img {
-        width: 99%;
-    }
-
-    .welcome {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 72px;
-        line-height: 86px;
-        margin-top: -67px;
-        color: #E1E6EC;
-    }
-
-    .presentation {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        color: #000000;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 72.92%), rgba(106, 142, 127, 0.54);
-    }
-
-    .decouvrir {
-        font-size: 35px;
-        line-height: 42px;
-        text-align: center;
-    }
-
-    .texteDecouvrir {
-        font-size: 20px;
-        line-height: 24px;
-        text-align: right;
-        color: #000000;
-    }
+main {
+    display: flex;
+    flex-direction: column;
 }
 
-@media (min-width: 0px) {
+img {
+    width: 100%;
+}
+.welcome {
+    font-size: 4em;
+    line-height: 86px;
+    margin-top: -67px;
+    color: #E1E6EC;
+}
+.presentation {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 72.92%), rgba(106, 142, 127, 0.54);
+    margin-top: -83px;
+}
 
-    body{
-        font-family : "lato", sans serif;
-    }
-    .container{
-        display:grid;
-        grid-gap: 0.5em;
-        grid-template-columns : 2;
-        grid-template-rows:4;
-        width: 686px;
-        height: 316px;
-        background: rgba(106, 142, 127, 0.63);
-    }
+.discoverItems{
+    background-color: #D0CFEC;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+ul, ol{
+    text-align: center;
+    padding: 0;
+}
+
+/* LIENS DYNAMIQUES */
+ol a{
+    color: black;
+    text-decoration: none;
+}
+
+/* SECTON "DECOUVRIR" */
+
+.titreDecouvrir {
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.nightLife{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 3em;
+}
+
+.texteDecouvrir {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+}
+
+/* SECTION COMMENTAIRES */
+
+em{
+    color: #EEEEFE;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.commentsSection{
+    display:grid;
+    grid-gap: 0.5em;
+    grid-template-columns : 2;
+    grid-template-rows:4;
     
-    .talkaboutus{
-        font-style: italic;
-        font-size : 1.2em;
-        padding-left: 0.5em;
-        padding-top: 0.5em;
-        grid-column : 1/2;
-        grid-row:1/2;
-    }
-    
-    .comment1{
-        overflow: scroll;
-        margin-right:0.5em;
-        margin-top:0.5em;
-        padding-left :0.5em;
-        grid-column:2/3;
-        grid-row:1/2;
-        width: 320.88px;
-        height: 93px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    .comment2{
-        overflow: scroll;
-        margin-left:0.5em;
-        padding-left :0.5em;
-        padding-right : 0.5em;
-        grid-column: 1/2;
-        grid-row:2/3; 
-        width: 320.88px;
-        height: 93px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-    .letcomment{
-        padding-right : 1em;
-        grid-column:1/3;
-        grid-row:3/4;
-        text-align: end;
-    }
-    
-    .stars{
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+    height: 316px;
+    background: rgba(106, 142, 127, 0.63);
+}
+
+.talkaboutus{
+    font-style: italic;
+    font-size : 1.2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+
+    grid-column : 1/2;
+    grid-row:1/2;
+}
+
+.comment1{
+    overflow: scroll;
+    margin-right:0.5em;
+    margin-top:0.5em;
+    padding-left :0.5em;
+
+    grid-column:2/3;
+    grid-row:1/2;
+
+    width: 320.88px;
+    height: 93px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.comment2{
+    overflow: scroll;
+    margin-left:0.5em;
+    padding-left :0.5em;
+    padding-right : 0.5em;
+    grid-column: 1/2;
+    grid-row:2/3; 
+    width: 320.88px;
+    height: 93px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.letcomment{
+    padding-right : 1em;
+    grid-column:1/3;
+    grid-row:3/4;
+    text-align: end;
+}
+
+.stars{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Desktop 688px and bigger */
 
-@media (min-width: 688px) {      
+@media (min-width: 688px) {
+    
+    .nightLifeImage{
+        width: 50%;
+    }
+    ol a:hover{
+        text-shadow: 2px 2px 2px #6A8E7F;
+    }
+    .nightLifeDesktop{
+        display: flex;
+        margin-bottom: 50px;
+    }
    
-    .container{
+    .commentsSection{
         display:grid;
         grid-gap: 0.5em;
         grid-template-columns : 6;
