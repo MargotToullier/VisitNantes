@@ -48,7 +48,31 @@
 #commentForm{
     width: 90%;
     height: 150px;
-    margin-bottom: 20px;
     margin-top: 50px;
+    margin-bottom: 5px;
     font-style: italic;
+    border: none;
+    border-radius: 2px;
+}
+
+.formButton{
+    margin-bottom: 20px;
+    align-self: flex-end;
+    margin-right: 5%;
+    box-shadow: 2px 2px 2px black;
+}
+
+@media (min-width: 688px){
+    .hero{
+        height: 450px;
+    }
+    .star1:hover, .star2:hover, .star3:hover, .star4:hover, .star5:hover{
+        color: yellow;
+    }
+    .title1{
+        font-size: 2.5em;
+    }
+    .title2{
+        font-size: 2em;
+    }
 }
