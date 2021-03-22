@@ -50,7 +50,7 @@ body {
   height: 18vw;
 }
 
-h2, h4{
+.newsletterTitle, .socialTitle, .copyright{
   font-weight: normal;
 }
 
@@ -71,9 +71,6 @@ h2, h4{
 /* Desktop 688px and bigger */
   
 @media (min-width: 688px) {
-    body {
-      /*style goes here*/
-    }
     .newsletterForm{
       width: 30%;
       max-width: 350px;
