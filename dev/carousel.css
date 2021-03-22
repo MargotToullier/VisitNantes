@@ -44,7 +44,7 @@
   }
   
 
-  
+  /* NEEDS INTEGRATION */
   * {
     box-sizing: border-box;
     scrollbar-color: transparent transparent; /* thumb and track color */
@@ -67,6 +67,7 @@
   * {
     -ms-overflow-style: none;
   }
+  /* END NEEDS INTEGRATION */
   
   .carousel * {
     max-height: 403px;
