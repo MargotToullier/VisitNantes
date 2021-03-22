@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:lightgrey;
+}
+
+header {
+  height: 12vh;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #EEEEFE;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: "lato", sans-serif;
+  color: #6A8E7F;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.navContainer {
+  margin-left: 20px;
+  margin-top: 4vh;
+}
+
+.headLogo {
+  width: 10vh;
+  height: 10vh;
+  align-self: center;
+}
+
+/* BURGER CSS */
+.burger {
+  display: inline-block;
+  border: 0;
+  background: none;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  border-bottom: 4px solid #6A8E7F;
+  width: 28px;
+  transition: border-bottom 1s ease-in-out;
+  -webkit-transition: border-bottom 1s ease-in-out;
+}
+.burger::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.burger:before {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #6A8E7F;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger:after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #6A8E7F;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.burger-check {
+  display: none;
+}
+
+.burger-check:checked ~ .burger {
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.8s ease-in-out;
+  -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+.burger-check:checked ~ .burger:before {
+  transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger-check:checked ~ .burger:after {
+  transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.navigation {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.burger-check:checked ~ .navigation {
+  max-height: 500px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+/* FROM HERE TO INTEGRATE */
+header a {
+  color: inherit;
+}
+
+small {
+  font-size: 14px;
+}
+
+header li {
+  list-style: none;
+  font-size: 25px;
+  padding: 5px 0;
+}
+header a {
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+/* TO HERE TO INTEGRATE */
+/* END BURGER CSS */
+
+/* Hide desktop nav on mobile view */
+.desktopNav {
+  display: none;
+}
+  
+
+/* EVERYTHING BELOW HERE desktop 688px and bigger */
+  
+@media (min-width: 688px) {
+
+  body {
+    background: green;
+  }
+
+  /* Hide mobile burger menu */
+  .burger {
+    display: none;
+  }
+
+  /* Show desktop nav items */
+  .desktopNav {
+    display: block;
+    padding: 0 30px;
+  }
+
+  
+  /* Desktop grid container layout definition */
+  header {
+    height: 16vh;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-rows: 0;
+    font-size: min(3vw, 2rem);
+  }  
+
+  /* Desktop grid item layout definition */
+  /* all central column for logo */
+  .headLogo {
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+    justify-self: center;
+    align-self: center;
+    width: 15vh;
+    height: 15vh;
+  }
+
+ 
+
+
+  /* top left */
+  .hist {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    justify-self: start;
+    transform:translateX(25vw);
+    transition: all 2s ease;
+  }
+
+  /* center left */
+  .gast {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    justify-self: start;
+    transform:translateX(15vw);
+    transition: all 2.25s ease-in-out;
+  }
+
+  /* bottom left */
+  .insol {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    justify-self: start;
+    transform:translateX(26vw);
+    transition: all 2.25s ease;
+  }
+
+  /* top right */
+  .cult {
+    grid-column: 5 / 8;
+    grid-row: 1 / 2;
+    justify-self: end;
+    transform:translateX(-26vw);
+    transition: all 2s ease;
+  }
+
+  /* center right*/
+  .night {
+    grid-column: 5 / 8;
+    grid-row: 2 / 3;
+    justify-self: end;
+    transform:translateX(-17vw);
+    transition: all 2.25s ease-in-out;
+  }
+
+  /* bottom right*/
+  .prat {
+    grid-column: 5 / 8;
+    grid-row: 3 / 4;
+    justify-self: end;
+    transform:translateX(-25vw);
+    transition: all 2.25s ease;
+  }
+  
+
+ 
+  
+}
