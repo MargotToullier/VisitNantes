@@ -103,10 +103,12 @@ header {
 /* FROM HERE TO INTEGRATE */
 header a {
   color: inherit;
+  text-decoration: none;
+
 }
 
-small {
-  font-size: 14px;
+header a:hover {
+  text-decoration: underline;
 }
 
 header li {
@@ -114,12 +116,7 @@ header li {
   font-size: 25px;
   padding: 5px 0;
 }
-header a {
-  text-decoration: none;
-}
-header a:hover {
-  text-decoration: underline;
-}
+
 /* TO HERE TO INTEGRATE */
 /* END BURGER CSS */
 
