@@ -12,21 +12,28 @@ main {
     flex-direction: column;
 }
 
-img {
-    width: 100%;
+/* IMAGE + TITRE WELCOME */
+.welcomeBackground{
+    background-image: url('NantesPano.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    display: flex;
 }
+
 .welcome {
+    margin: 0;
     font-size: 4em;
     line-height: 86px;
-    margin-top: -67px;
     color: #E1E6EC;
+    align-self: flex-end;
 }
+
 .presentation {
     font-size: 20px;
     line-height: 24px;
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 72.92%), rgba(106, 142, 127, 0.54);
-    margin-top: -83px;
 }
 
 .discoverItems{
@@ -50,6 +57,17 @@ ol a{
 
 /* SECTON "DECOUVRIR" */
 
+.nightLifeBackground{
+    background-image: url('IMG_1915.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between
+}
+
 .titreDecouvrir {
     font-size: 35px;
     line-height: 42px;
@@ -57,16 +75,17 @@ ol a{
 }
 
 .nightLife{
-    margin: 0;
-    padding: 0;
-    text-align: right;
     font-size: 3em;
+    margin: 0;
 }
 
 .texteDecouvrir {
+    margin: 0;
     font-size: 20px;
     line-height: 24px;
     text-align: right;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.47)
 }
 
 /* SECTION COMMENTAIRES */
@@ -138,18 +157,31 @@ em{
 /* Desktop 688px and bigger */
 
 @media (min-width: 688px) {
-    
-    .nightLifeImage{
-        width: 50%;
+
+    .welcomeBackground{
+        background-size: 100%;
     }
+    
     ol a:hover{
         text-shadow: 2px 2px 2px #6A8E7F;
     }
-    .nightLifeDesktop{
+    .nightLifeBackground{
+        background-image: url('IMG_1915.JPG');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 100%;
+        height: 350px;
         display: flex;
-        margin-bottom: 50px;
+        flex-direction: column;
     }
-   
+
+    .texteDecouvrir{
+        width: 40%;
+        background-color: rgba(255, 255, 255, 0.5)
+    }
+
+    /* SECTION COMMENTAIRES */
+
     .commentsSection{
         display:grid;
         grid-gap: 0.5em;
