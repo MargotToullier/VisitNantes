@@ -20,7 +20,7 @@
     display: flex;
 }
 
-.welcomeTitle {
+.mainTitle {
     margin: 0;
     font-size: 3.5em;
     line-height: 86px;
@@ -32,20 +32,21 @@
 .welcomeBloc {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 72.92%), rgba(106, 142, 127, 0.54);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* TITRE MESSAGE D'ACCUEIL */
-.welcomeBloc p span {
-    display: block;
-    margin-top: 10px;
+.welcomeTitle {
+    margin-bottom: 20px;
     text-align: center;
 }
 
 /* TEXTE MESSAGE D'ACCUEIL */
 .welcomeBloc p {
     font-size: 20px;
-    line-height: 24px;
     width: 80%;
     text-align: justify;
 }
@@ -55,24 +56,31 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 1.5em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 200px;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
 .discoverItems ul, ol{
-    text-align: center;
+    display: block;
+    margin: auto;
+    text-align: left;
     padding: 0;
 }
 
 /* LIENS DYNAMIQUES */
 .discoverItems ol a{
-    color: black;
+    color: #6A8E7F;
     text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* SECTON "DECOUVRIR" */
 .titreDecouvrir {
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 35px;
-    line-height: 42px;
     text-align: center;
 }
 
@@ -84,7 +92,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-bottom: 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .nightLifeTitle{
@@ -103,16 +113,17 @@
     padding-bottom: 10px;
 }
 
-.nightLifeBloc p button {
+.nightLifeButton {
     border: none;
     border-radius: 3px;
-    box-shadow: 1px 1px 1px #6A8E7F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 25px;
 }
 
 /* SECTION COMMENTAIRES */
 
 .stars {
-    color: yellow;
+    color: rgb(218, 218, 111);
     text-shadow: 2px 2px 2px black;
     font-size: 1.3em;
 }
@@ -131,11 +142,13 @@
     padding: 0;
     align-self: flex-start;
     padding-left: 25px;
+    padding-top: 15px;
 }
 
 .comment1, .comment2{
     background-color: #FFFFFF;
-    box-shadow: 3px 2px 2px black;
+    border: 1px solid #6A8E7F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 3px;
     width: 90%;
 
@@ -153,10 +166,12 @@
 }
 
 .commentsSection button{
-    border: none;
     border-radius: 2px;
-    box-shadow: 2px 2px 2px black;
+    border: 1px solid #6A8E7F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 20px;
 }
 
@@ -168,7 +183,7 @@
         background-size: 100%;
     }
 
-    .welcomeTitle{
+    .mainTitle{
         font-size: 4.3em;
     }
 
