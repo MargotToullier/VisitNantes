@@ -18,6 +18,11 @@ body{
     gap: 0.9em;
 }
 
+button{
+    background: rgba(238, 235, 235, 0.01);
+    border:0px;
+}
+
 .move{
     display:flex;
     justify-content:flex-start;
@@ -44,8 +49,6 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
 .stay{
     display:flex;
     justify-content:flex-end;
@@ -57,6 +60,7 @@ body{
     border-radius: 49px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .button2{
     font-family : "lato", sans serif;
     font-size: 1.2em;
@@ -71,7 +75,6 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
 .eat{
     display:flex;
     justify-content:flex-start;
@@ -83,6 +86,7 @@ body{
     border-radius: 49px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .button3{
     font-family : "lato", sans serif;
     font-size: 1.2em;
@@ -96,6 +100,7 @@ body{
     margin-left:2em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .around{
     display:flex;
     justify-content:flex-end;
@@ -107,6 +112,7 @@ body{
     border-radius: 49px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .button4{
     font-family : "lato", sans serif;
     font-size: 1.2em;
@@ -124,12 +130,15 @@ body{
 .button1:hover{ 
     background: rgba(238, 235, 235, 0.9);
 }
+
 .button2:hover{ 
     background: rgba(238, 235, 235, 0.9);
 }
+
 .button3:hover{ 
     background: rgba(238, 235, 235, 0.9);
 }
+
 .button4:hover{ 
     background: rgba(238, 235, 235, 0.9);
 }
@@ -137,145 +146,147 @@ body{
   
 @media (min-width: 688px) {
 
-    body{
-        background-color:#EEEEFE;
-        font-family : "lato", sans serif;
-        
-  
-    }
-    .map{
-        height: 400px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
-        border-radius: 49px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+body{
+    background-color:#EEEEFE;
+    font-family : "lato", sans serif;  
+}
+.map{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 49px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
     
-    .container{
-        display:flex;
-        flex-direction:column;
-        gap: 1em;
-    }
+.container{
+    display:flex;
+    flex-direction:column;
+    gap: 1em;
+}
     
-    .move{
-        display:flex;
-        justify-content:flex-start;
-        background-image: url("./assets/move.jpg");
-        background-color: #6A8E7F;
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: 100%;
-        height: 200px;
-        border-radius: 50px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
+.move{
+    display:flex;
+    justify-content:flex-start;
+    background-image: url("./assets/move.jpg");
+    background-color: #6A8E7F;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 
-    .button1{
-        font-family : "lato", sans serif;
-        font-size: 1.2em;
-        text-align:center;
-        padding-top: 3.1em;
-        height: 150px;
-        width: 150px;
-        background: rgba(238, 235, 235, 0.4);
-        border-radius: 50%;
-        margin-top : 1.5em;
-        margin-left:3em;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+.button1{
+    font-family : "lato", sans serif;
+    font-size: 1.2em;
+    text-align:center;
+    padding-top: 3.1em;
+    height: 150px;
+    width: 150px;
+    background: rgba(238, 235, 235, 0.4);
+    border-radius: 50%;
+    margin-top : 1.5em;
+    margin-left:3em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-    .stay{
-        display:flex;
-        justify-content:flex-end;
-        background-image: url("./assets/seloger.PNG");
-        background-color: #6A8E7F;
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: 100%;
-        height: 200px;
-        border-radius: 50px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-    }
+.stay{
+    display:flex;
+    justify-content:flex-end;
+    background-image: url("./assets/seloger.PNG");
+    background-color: #6A8E7F;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+}
 
-    .button2{
-        font-family : "lato", sans serif;
-        font-size: 1.2em;
-        text-align:center;
-        padding-top: 3.1em;
-        height: 150px;
-        width: 150px;
-        background: rgba(238, 235, 235, 0.4);
-        border-radius: 50%;
-        margin-top : 1.5em;
-        margin-right:3em;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    .eat{
-        display:flex;
-        justify-content:flex-start;
-        background-image: url("./assets/restauration.PNG");
-        background-color: #6A8E7F;
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: 100%;
-        height: 200px;
-        border-radius: 50px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    .button3{
-        font-family : "lato", sans serif;
-        font-size: 1.2em;
-        text-align:center;
-        padding-top: 3.1em;
-        height: 150px;
-        width: 150px;
-        background: rgba(238, 235, 235, 0.4);
-        border-radius: 50%;
-        margin-top : 1.5em;
-        margin-left:3em;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+.button2{
+    font-family : "lato", sans serif;
+    font-size: 1.2em;
+    text-align:center;
+    padding-top: 3.1em;
+    height: 150px;
+    width: 150px;
+    background: rgba(238, 235, 235, 0.4);
+    border-radius: 50%;
+    margin-top : 1.5em;
+    margin-right:3em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    .around{
-        display:flex;
-        justify-content:flex-end;
-        background-image: url("./assets/clisson.jpg");
-        background-color: #6A8E7F;
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: 100%;
-        height: 200px;
-        border-radius: 50px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.eat{
+    display:flex;
+    justify-content:flex-start;
+    background-image: url("./assets/restauration.PNG");
+    background-color: #6A8E7F;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button3{
+    font-family : "lato", sans serif;
+    font-size: 1.2em;
+    text-align:center;
+    padding-top: 3.1em;
+    height: 150px;
+    width: 150px;
+    background: rgba(238, 235, 235, 0.4);
+    border-radius: 50%;
+    margin-top : 1.5em;
+    margin-left:3em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.around{
+    display:flex;
+    justify-content:flex-end;
+    background-image: url("./assets/clisson.jpg");
+    background-color: #6A8E7F;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button4{
-        font-family : "lato", sans serif;
-        font-size: 1.2em;
-        text-align:center;
-        padding-top: 3.1em;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        background: rgba(238, 235, 235, 0.4);
-        margin-top : 1.5em;
-        margin-right:3em;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family : "lato", sans serif;
+    font-size: 1.2em;
+    text-align:center;
+    padding-top: 3.1em;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgba(238, 235, 235, 0.4);
+    margin-top : 1.5em;
+    margin-right:3em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
 .button1:hover{ 
     background: rgba(238, 235, 235, 0.9);
 }
+
 .button2:hover{ 
     background: rgba(238, 235, 235, 0.9);
 }
+
 .button3:hover{ 
     background: rgba(238, 235, 235, 0.9);
 }
+
 .button4:hover{ 
     background: rgba(238, 235, 235, 0.9);
 }
