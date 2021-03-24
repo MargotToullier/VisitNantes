@@ -15,6 +15,7 @@
 .presentation p {
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 60%;
 }
 
 .presentation h3 {
@@ -54,14 +55,19 @@
 
 .cultureInput {
 
-    font-size: auto;
-    display: block;
-    margin: auto;
-    border-radius: 4rem;
-    background-color: rgba(37, 36, 36, 0.418);
-    color: blanchedalmond;
-    padding: .3rem 3rem;
-    vertical-align: middle;
+    border-radius: 2px;
+    border: 1px solid #6A8E7F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.cultureInput a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Section présentation d'un évènement */
@@ -105,6 +111,7 @@
 .divEvenement p {
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 60%;
 }
 
 .divEvenement h2 {
@@ -169,14 +176,19 @@
     
     .cultureInput {
 
-        font-size: auto;
-        display: block;
-        margin: auto;
-        border-radius: 4rem;
-        background-color: black;
-        color: blanchedalmond;
-        padding: .3rem 3rem;
-        vertical-align: middle;
+        border-radius: 2px;
+        border: 1px solid #6A8E7F;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+
+    .cultureInput a {
+        color: black;
+        text-decoration: none;
     }
     
     /* Section présentation d'un évènement */
