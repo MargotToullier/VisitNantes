@@ -1,11 +1,6 @@
 /* couleur mauve clair #D0CFEC */
 /* couleur vert #6A8E7F */
 
-/* body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
 * {
     margin: 0;
@@ -13,10 +8,17 @@
     box-sizing: border-box;
 }
 
-/* TEMPORARY MAIN STYLES */
-main {
-    padding: 50px;
+body {
+  font-family : "Lato", "Helvetica", sans serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: palegoldenrod;
 }
+
+/* TEMPORARY MAIN STYLES */
+/* main {
+    padding: 50px;
+} */
 
 /* START HEADER STYLES */
 header {
@@ -119,6 +121,7 @@ header {
   
   header a:hover {
     text-decoration: underline;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
   
   header li {
@@ -149,6 +152,7 @@ header {
     .desktopNav {
       display: block;
       padding: 0 30px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
   
     
@@ -242,17 +246,31 @@ header {
     background-color: #D0CFEC;
     color: #6A8E7F;
     padding-top: 10px;
-    height: 150px;
+    height: 140px;
     text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
   }
   .newsletterForm{
     width: 70%;
     font-style: italic;
     max-width: 350px;
-  }
-  .newsletterButton{
+    height: 2rem;
+    margin-top: 25px;
+    border: 1px solid #6A8E7F;
     border-radius: 5px;
-    box-shadow: 2px 2px 0px #6A8E7F;
+    padding: 0 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .newsletterButton{
+      background-color: white;
+    border: 1px solid #6A8E7F;
+    border-radius: 5px;
+    height: 2rem;
+    padding: 0 10px;
+    /* box-shadow: 2px 2px 0px #6A8E7F; */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
   
   /*Bloc footer*/
@@ -264,6 +282,7 @@ header {
     flex-direction: column;
     align-items: center;
     color: #ffffff;
+    
   }
   
   .socialIcons{
@@ -271,16 +290,32 @@ header {
     justify-content: space-between;
     margin: auto;
     width: 25%;
+    margin-top: 25px;
     margin-bottom: 25px;
   }
   
   .logoFooter{
     width: 18vw; /*vw = dimension en fonction de l'écran et non du parent (Div)*/
     height: 18vw;
+    margin-bottom: 20px;
+
   }
   
   .newsletterTitle, .socialTitle, .copyright{
     font-weight: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .newsletterTitle {
+      font-size: 1.8rem;
+      margin-top: 10px;
+  }
+
+  .socialTitle {
+      margin-top: 20px;
+  }
+  .copyright {
+      margin-bottom: 20px;
   }
   
   /*.facebookIcon, .instagramIcon, .twitterIcon{
@@ -294,6 +329,7 @@ header {
     width: 85%;
     justify-content: space-around;
     font-size: 0.8em;
+    
   }
   
     
