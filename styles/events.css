@@ -65,10 +65,13 @@
     background-color: white;
 }
 
-.cultureInput a {
+a {
     color: black;
     text-decoration: none;
+    font-style: italic;
 }
+
+
 
 /* Section présentation d'un évènement */
 
