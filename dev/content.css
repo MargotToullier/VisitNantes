@@ -7,7 +7,7 @@ body{
 
 /* VERSION MOBILE UP TO 688 PX */
 
-main {
+.hero {
     display: flex;
     flex-direction: column;
 }
@@ -39,6 +39,7 @@ main {
 .welcomeBloc p span {
     display: block;
     margin-top: 10px;
+    text-align: center;
 }
 
 /* TEXTE MESSAGE D'ACCUEIL */
@@ -46,7 +47,7 @@ main {
     font-size: 20px;
     line-height: 24px;
     width: 80%;
-    text-align: center;
+    text-align: justify;
 }
 
 .discoverItems{
@@ -57,13 +58,13 @@ main {
     font-size: 1.5em;
 }
 
-ul, ol{
+.discoverItems ul, ol{
     text-align: center;
     padding: 0;
 }
 
 /* LIENS DYNAMIQUES */
-ol a{
+.discoverItems ol a{
     color: black;
     text-decoration: none;
 }
@@ -95,9 +96,8 @@ ol a{
 .nightLifeBloc p {
     margin: 0;
     font-size: 20px;
-    line-height: 24px;
     text-align: right;
-    width: 70%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.47);
     padding-right: 10px;
     padding-bottom: 10px;
@@ -111,68 +111,53 @@ ol a{
 
 /* SECTION COMMENTAIRES */
 
-em{
-    color: #EEEEFE;
-    font-style: normal;
-    font-weight: normal;
+.stars {
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.3em;
 }
 
 .commentsSection{
-    display:grid;
-    grid-gap: 0.5em;
-    grid-template-columns : 2;
-    grid-template-rows:4;
-    
-    height: 316px;
     background: rgba(106, 142, 127, 0.63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.talkaboutus{
+.commentsMessage{
     font-style: italic;
     font-size : 1.2em;
-    padding-left: 0.5em;
-    padding-top: 0.5em;
-
-    grid-column : 1/2;
-    grid-row:1/2;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+    padding-left: 25px;
 }
 
-.comment1{
-    overflow: scroll;
-    margin-right:0.5em;
-    margin-top:0.5em;
-    padding-left :0.5em;
-
-    grid-column:2/3;
-    grid-row:1/2;
-
-    width: 320.88px;
-    height: 93px;
+.comment1, .comment2{
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 2px 2px black;
+    border-radius: 3px;
+    width: 90%;
+
+    padding-left: 5px;
+    margin-bottom: 15px;
 }
 
-.comment2{
-    overflow: scroll;
-    margin-left:0.5em;
-    padding-left :0.5em;
-    padding-right : 0.5em;
-    grid-column: 1/2;
-    grid-row:2/3; 
-    width: 320.88px;
-    height: 93px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.letcomment{
-    padding-right : 1em;
-    grid-column:1/3;
-    grid-row:3/4;
-    text-align: end;
+.commentsSection{
+    text-align: center;
 }
 
-.stars{
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.letComment p {
+    margin: 0;
+    padding: 0;
+}
+
+.commentsSection button{
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px black;
+    height: 30px;
+    margin-bottom: 20px;
 }
 
 /* Desktop 688px and bigger */
@@ -217,58 +202,28 @@ em{
 
     /* SECTION COMMENTAIRES */
 
-    .commentsSection{
-        display:grid;
-        grid-gap: 0.5em;
-        grid-template-columns : 6;
-        grid-template-rows:4;
-        width:99%;
-        height: 316px;
-        background: rgba(106, 142, 127, 0.63);
+    .comment1, .comment2{
+        width: 40%;
+        padding-left: 5px;
     }
-    
-    .talkaboutus{
-        font-style: italic;
-        font-size : 1.2em;
-        padding-left: 0.5em;
-        padding-top: 0.5em;
-        grid-column : 1/3;
-        grid-row:1/2;
-    }
-    
-    .comment1{
-        overflow: scroll;
-        margin-right:10em;
-        margin-top:0.5em;
-        margin-left : 0.5;
-        grid-column:3/6;
-        grid-row:1/2;
-        height: 180;
-        background : #FFFFFF;
-        box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    .comment2{
-        overflow: scroll;
-        margin-left:0.5em;
-        padding-left :0.5em;
-        padding-right : 0.5em;
-        grid-column: 1/3;
-        grid-row:2/3; 
-        width: 100%;
-        height: 93px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
 
-    .letcomment{
-        padding-right : 0.5em;
-        grid-column:3/6;
-        grid-row:3/4;
-        text-align: end;
+    .comment1{
+        align-self: flex-end;
+        margin-right: 20px;
     }
-    
-    .stars{
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .comment2{
+        align-self: flex-start;
+        margin-left: 20px;
     }
+
+    .letComment{
+        align-self: flex-end;
+        text-align: right;
+    }
+
+    .commentsSection{
+        padding-right: 20px;
+    }
+
 }
