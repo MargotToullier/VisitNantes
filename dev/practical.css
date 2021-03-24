@@ -1,7 +1,7 @@
 
  /* PracticalInfos mobile*/ 
 body{
-    background-color:#EEEEFE;
+    background-color:white;
     font-family : "lato", sans serif;
     
 }
@@ -18,6 +18,21 @@ body{
     gap: 0.9em;
 }
 
+.rows{
+    display:flex;
+    flex-direction: row;
+    gap: 0.9em;
+}
+
+.textPractical{
+    width:20%;
+    background: rgba(238, 235, 235);
+    border-radius: 49px;
+    word-wrap: break-word;
+    padding : 1em;
+
+}
+
 button{
     background: rgba(238, 235, 235, 0.01);
     border:0px;
@@ -30,6 +45,7 @@ button{
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 80%;
     height: 200px;
     border-radius: 49px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -56,6 +72,7 @@ button{
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
+    width:80%;
     height: 200px;
     border-radius: 49px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -82,6 +99,7 @@ button{
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
+    width:80%;
     height: 200px;
     border-radius: 49px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -108,6 +126,7 @@ button{
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
+    width:80%;
     height: 200px;
     border-radius: 49px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -164,6 +183,20 @@ body{
     flex-direction:column;
     gap: 1em;
 }
+
+.rows{
+    display:flex;
+    flex-direction: row;
+    gap: 0.9em;
+}
+
+.textPractical{
+    width:20%;
+    background: rgba(238, 235, 235);
+    border-radius: 49px;
+    word-wrap: break-word;
+    padding : 1em;
+}
     
 .move{
     display:flex;
@@ -171,8 +204,8 @@ body{
     background-image: url("./assets/move.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
-    background-position: right;
     background-size: 100%;
+    width:80%;
     height: 200px;
     border-radius: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -199,8 +232,8 @@ body{
     background-image: url("./assets/seloger.PNG");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
-    background-position: left;
     background-size: 100%;
+    width:80%;
     height: 200px;
     border-radius: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
@@ -226,8 +259,8 @@ body{
     background-image: url("./assets/restauration.PNG");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
-    background-position: right;
     background-size: 100%;
+    width:80%;
     height: 200px;
     border-radius: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -253,8 +286,8 @@ body{
     background-image: url("./assets/clisson.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
-    background-position: left;
     background-size: 100%;
+    width:80%;
     height: 200px;
     border-radius: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
