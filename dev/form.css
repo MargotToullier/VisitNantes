@@ -1,0 +1,54 @@
+/* Mobile 0px to 688px */ 
+/* couleur mauve clair #D0CFEC */
+/* couleur vert #6A8E7F */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero{
+    background-image: url("Sunshine.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.title1{
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.title2 {
+    align-self: flex-end;
+    color: #6A8E7F;
+    font-weight: normal;
+}
+
+.form{
+    background-color: #6A8E7F;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.stars{
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5em;
+}
+
+#commentForm{
+    width: 90%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-style: italic;
+}
