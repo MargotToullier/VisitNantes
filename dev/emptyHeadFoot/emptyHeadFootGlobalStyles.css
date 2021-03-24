@@ -12,7 +12,11 @@ body {
   font-family : "Lato", "Helvetica", sans serif;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: palegoldenrod;
+  background-color: #ECEBF7;
+}
+
+main {
+  padding: 50px;
 }
 
 /* TEMPORARY MAIN STYLES */
@@ -106,6 +110,8 @@ header {
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s ease-in-out;
+    background-color:rgba(238, 235, 235, 0.8);
+    border-radius: 10%;
   }
   
   .burger-check:checked ~ .navigation {
@@ -127,7 +133,7 @@ header {
   header li {
     list-style: none;
     font-size: 25px;
-    padding: 5px 0;
+    padding: 6px 15px;
   }
   
   /* END BURGER CSS */
