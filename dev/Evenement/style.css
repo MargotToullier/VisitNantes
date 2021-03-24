@@ -1,9 +1,9 @@
 body {
     font-family : "lato", sans serif;
-    margin: auto;
+    
 }
 
-/* VERSION MOBILE UP TO 688 PX */
+/* Desktop */
 
 /* Section présentation de la culture */
 
@@ -18,10 +18,10 @@ body {
 }
 
 .culture {
-    font-size: 72px;
+    font-size: 150px;
     line-height: 86px;
     color: #d4781c;
-    margin-top: -74px;
+    margin-top: -90px;
     text-align: right;
     margin-right: 10px;
 }
@@ -113,9 +113,10 @@ text-align: justify;
 
 }
 
-/* Desktop 688px and bigger */
+/* Mobile */
 
 @media (min-width: 688px) {
+
 
 /* Section présentation de la culture */
 
@@ -130,10 +131,10 @@ text-align: justify;
 }
 
 .culture {
-    font-size: 72px;
+    font-size: 100px;
     line-height: 86px;
     color: #d4781c;
-    margin-top: -74px;
+    margin-top: -90px;
     text-align: right;
     margin-right: 10px;
 }
@@ -156,7 +157,7 @@ li {
 
 
 input {
-    font-size: auto;
+    font-size: 30px;
     display: block;
     margin: auto;
     border-radius: 4rem;
@@ -187,7 +188,7 @@ input {
 .evenements {
        
     font-weight: 600;
-    font-size: 36px;
+    font-size: 60px;
     line-height: 43px;
     color:#EEEEFE;
     text-align: center;
@@ -207,24 +208,28 @@ input {
 
 
 .presentationImage {
-width: 50%;
-display: block;
-margin-right: auto;
-margin-left: auto;
-border-radius: 20px;
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    border-radius: 20px;
 
 }
 
 
 .descriptionEvenement {
-display: inline-block;
-margin-left: 150px;
-margin-right: 150px;
-text-align: justify;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
 
 }
 
-
+h3 {
+    font-size: 30px;
+    font-style: italic;
+}
 
 
 
