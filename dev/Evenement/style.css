@@ -16,7 +16,6 @@ body {
     height: 100%;
 
 }
-
 .culture {
     font-size: 150px;
     line-height: 86px;
@@ -34,7 +33,7 @@ body {
     text-align: justify;
 }
 
-li {
+.cultureTexteLi {
     
     margin-left: 100px;
     margin-right: 100px;
@@ -43,7 +42,7 @@ li {
 }
 
 
-input {
+.cultureInput {
     font-size: auto;
     display: block;
     margin: auto;
@@ -147,7 +146,7 @@ text-align: justify;
     text-align: justify;
 }
 
-li {
+.cultureTexteLi {
     
     margin-left: 100px;
     margin-right: 100px;
@@ -156,7 +155,7 @@ li {
 }
 
 
-input {
+.cultureInput {
     font-size: 30px;
     display: block;
     margin: auto;
@@ -223,14 +222,8 @@ input {
     margin-left: 150px;
     margin-right: 150px;
     text-align: justify;
-
-}
-
-h3 {
-    font-size: 30px;
     font-style: italic;
+
 }
-
-
 
 }
