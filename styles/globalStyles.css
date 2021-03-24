@@ -107,11 +107,14 @@ header {
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s ease-in-out;
+
   }
   
   .burger-check:checked ~ .navigation {
     max-height: 500px;
     transition: max-height 0.5s ease-in-out;
+    background-color: rgba(238, 235, 235, 0.8);
+    border-radius: 10%;
   }
   
   header a {
@@ -128,7 +131,7 @@ header {
   header li {
     list-style: none;
     font-size: 25px;
-    padding: 5px 0;
+    padding: 6px 15px;
   }
   
   /* END BURGER CSS */
