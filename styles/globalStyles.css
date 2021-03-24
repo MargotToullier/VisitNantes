@@ -162,7 +162,7 @@ header {
     
     /* Desktop grid container layout definition */
     header {
-      height: 16vh;
+      height: 130px;
       display: grid;
       grid-template-columns: repeat(7, minmax(0, 1fr));
       grid-template-rows: 1fr 1fr 1fr;
@@ -189,7 +189,7 @@ header {
       grid-column: 1 / 4;
       grid-row: 1 / 2;
       justify-self: start;
-      transform:translateX(25vw);
+      transform:translateX(min(200%, 25vw));
       transition: all 2s ease;
     }
   
@@ -198,7 +198,7 @@ header {
       grid-column: 1 / 4;
       grid-row: 2 / 3;
       justify-self: start;
-      transform:translateX(15vw);
+      transform:translateX(min(100%, 15vw));
       transition: all 2.25s ease-in-out;
     }
   
@@ -207,7 +207,7 @@ header {
       grid-column: 1 / 4;
       grid-row: 3 / 4;
       justify-self: start;
-      transform:translateX(26vw);
+      transform:translateX(min(220%, 26vw));
       transition: all 2.25s ease;
     }
   
@@ -216,7 +216,7 @@ header {
       grid-column: 5 / 8;
       grid-row: 1 / 2;
       justify-self: end;
-      transform:translateX(-26vw);
+      transform:translateX(min(-150%, -22vw));
       transition: all 2s ease;
     }
   
@@ -225,7 +225,7 @@ header {
       grid-column: 5 / 8;
       grid-row: 2 / 3;
       justify-self: end;
-      transform:translateX(-17vw);
+      transform:translateX(min(-90%, -17vw));
       transition: all 2.25s ease-in-out;
     }
   
@@ -234,7 +234,7 @@ header {
       grid-column: 5 / 8;
       grid-row: 3 / 4;
       justify-self: end;
-      transform:translateX(-25vw);
+      transform:translateX(min(-135%, -21vw));
       transition: all 2.25s ease;
     }
       
