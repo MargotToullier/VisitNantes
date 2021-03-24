@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave us a Comment</title>
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/commentForm.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Burger Menu Controls & Links for Mobile -->
+        <div class="navContainer">
+            <input class="burger-check" id="burger-check" type="checkbox">
+            <label for="burger-check" class="burger"></label>
+            <nav id="navigation1" class="navigation">
+                <ul>
+                    <li><a href="#">Histoire</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Gastronomie</a></li>
+                    <li><a href="#">Night-Life</a></li>
+                    <li><a href="#">Insolite</a></li>
+                    <li><a href="#">Pratique</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Desktop Menu Links -->
+        <img class="headLogo" src="/assets/NANTESlogoHeader.svg" alt="">
+        <div class="desktopNav hist"><a href="#">Histoire</a></div>
+        <div class="desktopNav cult"><a href="#">Culture</a></div>
+        <div class="desktopNav gast"><a class="gLink" href="#">Gastronomie</a></div>
+        <div class="desktopNav night"><a href="#">Night-Life</a></div>
+        <div class="desktopNav insol"><a href="#">Insolite</a></div>
+        <div class="desktopNav prat"><a href="#">Pratique</a></div>
+    </header>
+
+    <section>
+        <div class="hero">
+            <h1 class="title1">Vous aimez Nantes ?</h1>
+            <h2 class="title2">Laissez-nous votre avis</h2>
+        </div>
+        <div class="form">
+            <p>Notez votre expérience <span class="stars"><span class="star1">★</span> <span class="star2">★</span>
+                    <span class="star3">★</span> <span class="star4">★</span> <span class="star5">★</span> </span></p>
+            <label for="commentForm"></label>
+            <textarea name="commentForm" id="commentForm" placeholder="Ecrivez votre commentaire"></textarea>
+            <input class="formButton" type="button" value="Envoyer">
+        </div>
+    </section>
+
+    <section class="newsletterDiv">
+        <h2 class="newsletterTitle">Restons en contact</h2>
+        <input class="newsletterForm" type="text" placeholder="Inscrivez-vous à notre newsletter">
+        <input class="newsletterButton" type="submit" value="Inscription">
+    </section>
+    <footer>
+        <div class="footerDiv">
+            <h2 class="socialTitle">Rejoignez-nous !</h2>
+            <div class="socialIcons">
+                <img class="facebookIcon" src="/assets/facebook.svg" alt="facebookIcon">
+                <img class="instagramIcon" src="/assets/instagram.svg" alt="instagramIcon">
+                <img class="twitterIcon" src="/assets/twitter.svg" alt="twitterIcon">
+            </div>
+            <img class="logoFooter" src="/assets/NANTESlogoFooter.svg" alt="Logo">
+            <h4 class="copyright">Copyright The Wild TMCA</h4>
+            <ul class="navFooter">
+                <li>Confidentialité</li>
+                <li>Mentions légales</li>
+                <li>Flux RSS</li>
+                <li>Plan du site</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
