@@ -13,8 +13,8 @@
 }
 
 .presentation p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .presentation h3 {
@@ -58,7 +58,7 @@
     display: block;
     margin: auto;
     border-radius: 4rem;
-    background-color: black;
+    background-color: rgba(37, 36, 36, 0.418);
     color: blanchedalmond;
     padding: .3rem 3rem;
     vertical-align: middle;
@@ -100,6 +100,16 @@
     color:white;
     border-top: 2px;
 
+}
+
+.divEvenement p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divEvenement h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .presentationImage {
