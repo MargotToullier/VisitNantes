@@ -162,7 +162,7 @@ header {
     
     /* Desktop grid container layout definition */
     header {
-      height: 130px;
+      height: 140px;
       display: grid;
       grid-template-columns: repeat(7, minmax(0, 1fr));
       grid-template-rows: 1fr 1fr 1fr;
