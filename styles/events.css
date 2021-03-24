@@ -82,6 +82,7 @@ main a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 
 
@@ -91,7 +92,7 @@ main a {
     max-width: 456px;
     max-height: 279px;
     padding-top: 20px;
-    
+    margin-bottom: 20px;
 }
 
 .evenements {
