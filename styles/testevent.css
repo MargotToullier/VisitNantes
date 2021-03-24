@@ -1,0 +1,221 @@
+/* Mobile */
+
+/* Section présentation de la culture */
+
+
+.presentation {
+
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentation p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.presentation h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cultureImage {
+
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    max-width: 1200px;
+
+}
+
+.culture {
+
+    font-size: 60px;
+    line-height: 86px;
+    color: #d4781c;
+    margin-top: -70px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.cultureTexte {
+
+    text-align: justify;
+}
+
+.cultureTexteLi {
+    
+    text-align: justify;
+    padding: 2px;
+}
+
+.cultureInput {
+
+    font-size: auto;
+    display: block;
+    margin: auto;
+    border-radius: 4rem;
+    background-color: black;
+    color: blanchedalmond;
+    padding: .3rem 3rem;
+    vertical-align: middle;
+}
+
+/* Section présentation d'un évènement */
+
+.divEvenement {
+    background-color: #989572;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.evenementImage {
+    
+    display: block;
+    max-width: 456px;
+    max-height: 279px;
+    padding-top: 20px;
+    
+}
+
+.evenements {
+       
+    font-size: 36px;
+    line-height: 43px;
+    color:#EEEEFE;
+    text-align: center;
+    border-top: 2px;
+
+}
+
+.texteEvenement {
+
+    color:white;
+    border-top: 2px;
+
+}
+
+.presentationImage {
+
+    max-width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    
+}
+
+.descriptionEvenement {
+
+    text-align: justify;
+    
+}
+
+/* Desktop */
+
+@media (min-width: 688px) {
+
+    .presentation {
+
+        margin-bottom: 50px;
+    }
+    
+    .cultureImage {
+
+        width: 100%;
+        height: 100%;
+        max-height: 450px;
+        max-width: 1200px;
+    
+    }
+    
+    .culture {
+
+        font-size: 60px;
+        line-height: 86px;
+        color: #d4781c;
+        margin-top: -70px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    
+    .cultureTexte {
+
+        text-align: justify;
+    }
+    
+    .cultureTexteLi {
+        
+        text-align: justify;
+        padding: 2px;
+    }
+    
+    .cultureInput {
+
+        font-size: auto;
+        display: block;
+        margin: auto;
+        border-radius: 4rem;
+        background-color: black;
+        color: blanchedalmond;
+        padding: .3rem 3rem;
+        vertical-align: middle;
+    }
+    
+    /* Section présentation d'un évènement */
+    
+    .divEvenement {
+
+        background-color: #989572;
+        text-align: center;
+    }
+    
+    
+    .evenementImage {
+        
+        display: block;
+        max-width: 456px;
+        max-height: 279px;
+        padding-top: 20px;
+        
+    }
+    
+    .evenements {
+           
+        font-size: 36px;
+        line-height: 43px;
+        color:#EEEEFE;
+        text-align: center;
+        border-top: 2px;
+    
+    }
+    
+    .texteEvenement {
+    
+        color:white;
+        border-top: 2px;
+    
+    }
+    
+    .presentationImage {
+        max-width: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 20px;
+        
+    }
+    
+    .descriptionEvenement {
+        text-align: justify;
+        
+    }
+
+}
