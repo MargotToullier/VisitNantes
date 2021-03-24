@@ -25,6 +25,8 @@ body{
 }
 
 .textPractical{
+    font-size: 1em;
+    text-align:justify;
     width:20%;
     background: rgba(238, 235, 235);
     border-radius: 49px;
