@@ -7,26 +7,47 @@ body{
 
 /* VERSION MOBILE UP TO 688 PX */
 
-main {
+.hero {
     display: flex;
     flex-direction: column;
 }
 
-img {
-    width: 100%;
+.welcomeBackground{
+    background-image: url('NantesPano.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    display: flex;
 }
-.welcome {
-    font-size: 4em;
+
+.welcomeTitle {
+    margin: 0;
+    font-size: 3.5em;
     line-height: 86px;
-    margin-top: -67px;
     color: #E1E6EC;
+    align-self: flex-end;
+    /* text-shadow: 4px 1px 4px #6A8E7F; */
 }
-.presentation {
+/* BLOC MESSAGE D'ACCUEIL */
+.welcomeBloc {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 72.92%), rgba(106, 142, 127, 0.54);
+    display: flex;
+    justify-content: center;
+}
+
+/* TITRE MESSAGE D'ACCUEIL */
+.welcomeBloc p span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* TEXTE MESSAGE D'ACCUEIL */
+.welcomeBloc p {
     font-size: 20px;
     line-height: 24px;
-    text-align: center;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 72.92%), rgba(106, 142, 127, 0.54);
-    margin-top: -83px;
+    width: 80%;
+    text-align: justify;
 }
 
 .discoverItems{
@@ -37,171 +58,172 @@ img {
     font-size: 1.5em;
 }
 
-ul, ol{
+.discoverItems ul, ol{
     text-align: center;
     padding: 0;
 }
 
 /* LIENS DYNAMIQUES */
-ol a{
+.discoverItems ol a{
     color: black;
     text-decoration: none;
 }
 
 /* SECTON "DECOUVRIR" */
-
 .titreDecouvrir {
     font-size: 35px;
     line-height: 42px;
     text-align: center;
 }
 
-.nightLife{
-    margin: 0;
-    padding: 0;
-    text-align: right;
-    font-size: 3em;
+.nightLifeBloc{
+    background-image: url('IMG_1915.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between
 }
 
-.texteDecouvrir {
+.nightLifeTitle{
+    font-size: 3em;
+    margin: 0;
+    font-weight: normal;
+}
+
+.nightLifeBloc p {
+    margin: 0;
     font-size: 20px;
-    line-height: 24px;
     text-align: right;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.47);
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.nightLifeBloc p button {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #6A8E7F;
 }
 
 /* SECTION COMMENTAIRES */
 
-em{
-    color: #EEEEFE;
-    font-style: normal;
-    font-weight: normal;
+.stars {
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.3em;
 }
 
 .commentsSection{
-    display:grid;
-    grid-gap: 0.5em;
-    grid-template-columns : 2;
-    grid-template-rows:4;
-    
-    height: 316px;
     background: rgba(106, 142, 127, 0.63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.talkaboutus{
+.commentsMessage{
     font-style: italic;
     font-size : 1.2em;
-    padding-left: 0.5em;
-    padding-top: 0.5em;
-
-    grid-column : 1/2;
-    grid-row:1/2;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+    padding-left: 25px;
 }
 
-.comment1{
-    overflow: scroll;
-    margin-right:0.5em;
-    margin-top:0.5em;
-    padding-left :0.5em;
-
-    grid-column:2/3;
-    grid-row:1/2;
-
-    width: 320.88px;
-    height: 93px;
+.comment1, .comment2{
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 2px 2px black;
+    border-radius: 3px;
+    width: 90%;
+
+    padding-left: 5px;
+    margin-bottom: 15px;
 }
 
-.comment2{
-    overflow: scroll;
-    margin-left:0.5em;
-    padding-left :0.5em;
-    padding-right : 0.5em;
-    grid-column: 1/2;
-    grid-row:2/3; 
-    width: 320.88px;
-    height: 93px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.letcomment{
-    padding-right : 1em;
-    grid-column:1/3;
-    grid-row:3/4;
-    text-align: end;
+.commentsSection{
+    text-align: center;
 }
 
-.stars{
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.letComment p {
+    margin: 0;
+    padding: 0;
+}
+
+.commentsSection button{
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px black;
+    height: 30px;
+    margin-bottom: 20px;
 }
 
 /* Desktop 688px and bigger */
 
 @media (min-width: 688px) {
-    
-    .nightLifeImage{
-        width: 50%;
+
+    .welcomeBackground{
+        background-size: 100%;
     }
+
+    .welcomeTitle{
+        font-size: 4.3em;
+    }
+
+    .welcomeBloc p {
+        width: 60%;
+    }
+    
+    /* LISTE THEMES */
     ol a:hover{
+        color: #FFFFFF;
         text-shadow: 2px 2px 2px #6A8E7F;
     }
-    .nightLifeDesktop{
-        display: flex;
-        margin-bottom: 50px;
-    }
-   
-    .commentsSection{
-        display:grid;
-        grid-gap: 0.5em;
-        grid-template-columns : 6;
-        grid-template-rows:4;
-        width:99%;
-        height: 316px;
-        background: rgba(106, 142, 127, 0.63);
-    }
-    
-    .talkaboutus{
-        font-style: italic;
-        font-size : 1.2em;
-        padding-left: 0.5em;
-        padding-top: 0.5em;
-        grid-column : 1/3;
-        grid-row:1/2;
-    }
-    
-    .comment1{
-        overflow: scroll;
-        margin-right:10em;
-        margin-top:0.5em;
-        margin-left : 0.5;
-        grid-column:3/6;
-        grid-row:1/2;
-        height: 180;
-        background : #FFFFFF;
-        box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    .comment2{
-        overflow: scroll;
-        margin-left:0.5em;
-        padding-left :0.5em;
-        padding-right : 0.5em;
-        grid-column: 1/3;
-        grid-row:2/3; 
-        width: 100%;
-        height: 93px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
 
-    .letcomment{
-        padding-right : 0.5em;
-        grid-column:3/6;
-        grid-row:3/4;
-        text-align: end;
+    .nightLifeBloc{
+        background-image: url('IMG_1915.JPG');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
     }
-    
-    .stars{
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .nightLifeTitle{
+        font-size: 4em;
     }
+
+    .nightLifeBloc p {
+        width: 40%;
+    }
+
+    /* SECTION COMMENTAIRES */
+
+    .comment1, .comment2{
+        width: 40%;
+        padding-left: 5px;
+    }
+
+    .comment1{
+        align-self: flex-end;
+        margin-right: 20px;
+    }
+
+    .comment2{
+        align-self: flex-start;
+        margin-left: 20px;
+    }
+
+    .letComment{
+        align-self: flex-end;
+        text-align: right;
+    }
+
+    .commentsSection{
+        padding-right: 20px;
+    }
+
 }
