@@ -1,5 +1,7 @@
 
  /* PracticalInfos mobile*/ 
+ 
+
  body{
     background-color:white;
     font-family : "lato", sans serif;
@@ -34,10 +36,6 @@
     
 }
 
-button{
-    background: rgba(238, 235, 235, 0.01);
-    border:0px;
-}
 
 .move{
     display:flex;
@@ -65,6 +63,8 @@ button{
     margin-top : 2.5em;
     margin-left:2em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border:0px;
 }
 
 .stay{
@@ -93,6 +93,8 @@ button{
     margin-top : 2.5em;
     margin-right:2em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border:0px;
 }
 
 .eat{
@@ -121,6 +123,8 @@ button{
     margin-top : 2.5em;
     margin-left:2em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border:0px;
 }
 
 .around{
@@ -150,22 +154,28 @@ button{
     margin-top : 2.5em;
     margin-right:2em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border:0px;
 }
 
-.button1:hover{ 
+.button1:active{ 
     background: rgba(238, 235, 235, 0.9);
+    outline:0
 }
 
-.button2:hover{ 
+.button2:active{ 
     background: rgba(238, 235, 235, 0.9);
+    outline:0;
 }
 
-.button3:hover{ 
+.button3:active{ 
     background: rgba(238, 235, 235, 0.9);
+    outline:0;
 }
 
-.button4:hover{ 
+.button4:active{ 
     background: rgba(238, 235, 235, 0.9);
+    outline:0;
 }
 /* EVERYTHING BELOW HERE desktop 688px and bigger */
   
@@ -230,6 +240,7 @@ body{
     margin-top : 1.5em;
     margin-left:3em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border:0px;
 }
 
 .stay{
@@ -257,8 +268,10 @@ body{
     margin-top : 1.5em;
     margin-right:3em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+    cursor: pointer;
+    border:0px;
 }
+
 .eat{
     display:flex;
     justify-content:flex-start;
@@ -284,6 +297,8 @@ body{
     margin-top : 1.5em;
     margin-left:3em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border:0px;
 }
 
 .around{
@@ -312,21 +327,26 @@ body{
     margin-top : 1.5em;
     margin-right:3em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+    cursor: pointer;
+    border:0px;
 }
 
 .button1:hover{ 
     background: rgba(238, 235, 235, 0.9);
+    outline:0;
 }
 
 .button2:hover{ 
     background: rgba(238, 235, 235, 0.9);
+    outline:0;
 }
 
 .button3:hover{ 
     background: rgba(238, 235, 235, 0.9);
+    outline:0;
 }
 
 .button4:hover{ 
     background: rgba(238, 235, 235, 0.9);
+    outline:0;
 }
