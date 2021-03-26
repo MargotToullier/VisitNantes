@@ -43,7 +43,7 @@ button{
 .move{
     display:flex;
     justify-content:flex-start;
-    background-image: url("../assets/move.jpg");
+    background-image: url("./assets/move.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -70,7 +70,7 @@ button{
 .stay{
     display:flex;
     justify-content:flex-end;
-    background-image: url("../assets/seloger.PNG");
+    background-image: url("./assets/seloger.PNG");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -97,7 +97,7 @@ button{
 .eat{
     display:flex;
     justify-content:flex-start;
-    background-image: url("../assets/restauration.PNG");
+    background-image: url("./assets/restauration.PNG");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -124,7 +124,7 @@ button{
 .around{
     display:flex;
     justify-content:flex-end;
-    background-image: url("../assets/clisson.jpg");
+    background-image: url("./assets/clisson.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -203,7 +203,7 @@ body{
 .move{
     display:flex;
     justify-content:flex-start;
-    background-image: url("../assets/move.jpg");
+    background-image: url("./assets/move.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -231,7 +231,7 @@ body{
 .stay{
     display:flex;
     justify-content:flex-end;
-    background-image: url("../assets/seloger.PNG");
+    background-image: url("./assets/seloger.PNG");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -258,7 +258,7 @@ body{
 .eat{
     display:flex;
     justify-content:flex-start;
-    background-image: url("../assets/restauration.PNG");
+    background-image: url("./assets/restauration.PNG");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -285,7 +285,7 @@ body{
 .around{
     display:flex;
     justify-content:flex-end;
-    background-image: url("../assets/clisson.jpg");
+    background-image: url("./assets/clisson.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
