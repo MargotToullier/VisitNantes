@@ -13,7 +13,7 @@
 }
 
 .welcomeBackground{
-    background-image: url('./assets/index/NantesPano.jpg');
+    background-image: url('../assets/index/NantesPano.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 350px;
@@ -85,7 +85,7 @@
 }
 
 .nightLifeBloc{
-    background-image: url('./assets/index/IMG_1915.JPG');
+    background-image: url('../assets/index/IMG_1915.JPG');
     background-repeat: no-repeat;
     background-position: center;
     height: 350px;
@@ -208,7 +208,7 @@
     }
 
     .nightLifeBloc{
-        background-image: url('./assets/index/IMG_1915.JPG');
+        background-image: url('../assets/index/IMG_1915.JPG');
         background-repeat: no-repeat;
         background-position: left;
         background-size: 100%;
