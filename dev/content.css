@@ -13,7 +13,7 @@ body{
 }
 
 .welcomeBackground{
-    background-image: url('NantesPano.jpg');
+    background-image: url('./NantesPano.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 350px;
@@ -77,7 +77,7 @@ body{
 }
 
 .nightLifeBloc{
-    background-image: url('IMG_1915.JPG');
+    background-image: url('./IMG_1915.JPG');
     background-repeat: no-repeat;
     background-position: center;
     height: 350px;
@@ -183,7 +183,7 @@ body{
     }
 
     .nightLifeBloc{
-        background-image: url('IMG_1915.JPG');
+        background-image: url('./IMG_1915.JPG');
         background-repeat: no-repeat;
         background-position: left;
         background-size: 100%;
