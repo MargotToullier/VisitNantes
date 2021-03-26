@@ -40,7 +40,7 @@
 .move{
     display:flex;
     justify-content:flex-start;
-    background-image: url("./assets/practical/move.jpg");
+    background-image: url("../assets/practical/move.jpg");
     background-color:white;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -70,7 +70,7 @@
 .stay{
     display:flex;
     justify-content:flex-end;
-    background-image: url("./assets/practical/seloger.PNG");
+    background-image: url("../assets/practical/seloger.PNG");
     background-color:white;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -100,7 +100,7 @@
 .eat{
     display:flex;
     justify-content:flex-start;
-    background-image: url("./assets/practical/restauration.PNG");
+    background-image: url("../assets/practical/restauration.PNG");
     background-color:white;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -130,7 +130,7 @@
 .around{
     display:flex;
     justify-content:flex-end;
-    background-image: url("./assets/practical/clisson.jpg");
+    background-image: url("../assets/practical/clisson.jpg");
     background-color:white;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -217,7 +217,7 @@ body{
 .move{
     display:flex;
     justify-content:flex-start;
-    background-image: url("./assets/practical/movedesk.jpg");
+    background-image: url("../assets/practical/movedesk.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -246,7 +246,7 @@ body{
 .stay{
     display:flex;
     justify-content:flex-end;
-    background-image: url("./assets/practical/selogerdesk.jpg");
+    background-image: url("../assets/practical/selogerdesk.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -275,7 +275,7 @@ body{
 .eat{
     display:flex;
     justify-content:flex-start;
-    background-image: url("./assets/practical/restauration.PNG");
+    background-image: url("../assets/practical/restauration.PNG");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -304,7 +304,7 @@ body{
 .around{
     display:flex;
     justify-content:flex-end;
-    background-image: url("./assets/practical/clissondesk.jpg");
+    background-image: url("../assets/practical/clissondesk.jpg");
     background-color: #6A8E7F;
     background-repeat: no-repeat;
     background-size: 100%;
