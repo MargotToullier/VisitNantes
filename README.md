@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/teasmade/VisitNantes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Visit Nantes
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Réalisation d'un site vitrine en HTML/CSS en groupe de 4 pendant 15 jours.
+L'une des personnes du groupe ne connaissant pas Nantes nous avons voulu développer un site pour lui donner envie de visiter la ville en donnant quelques thématique.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Tech Stack
 
-[Link](url) and ![Image](src)
-```
+HTML / CSS
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/teasmade/VisitNantes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  
+## Features
 
-### Support or Contact
+- Amélioration du design,
+- Ajouter du Javascript:
+   -pour ajouter un agenda relié à la ville pour actualiser le contenu des évènements
+   -possibilité reel d'ajouter des commentaires sur le site,
+- Lien vers les sites sncf / Lafourchette... Pour la rubrique "Pratique"
+## Deployment
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+https://teasmade.github.io/VisitNantes/index.html
+
+  
+## Authors
+
+- [@margottoullier] : https://www.linkedin.com/in/margot-toullier/
+- Thomas, Clémence, Aurélien
+
+  
